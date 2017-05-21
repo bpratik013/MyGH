@@ -1,0 +1,204 @@
+﻿body {
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.voffset { margin-top: 2px;}
+.voffset1 { margin-top: 5px;}
+.voffset2 { margin-top: 10px;}
+.voffset3 { margin-top: 20px;}
+.voffset4 { margin-top: 40px;}
+.voffset5 { margin-top: 80px;}
+
+
+
+
+/*Bootstraps Overrides*/
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+
+.navbar-inverse .notifications {
+    position: relative;
+}
+
+.navbar-inverse .notifications .badge {
+    position: absolute;
+    font-size: 9px;
+    top: 8px;
+    right: -2px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Lato,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+
+.form-control:focus {
+    border-color: #2196f3;
+    -webkit-box-shadow:  none;
+    box-shadow: none;
+   
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: rgba(174, 44, 43, 0.44);
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(174, 44, 43, 0.44);
+
+    color: #ffffff;
+}
+
+.btn {
+    /*font-size: 17px;
+    padding: 7px 20px;*/
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
+/*Page-Level Styles*/
+.gigs > li .Date {
+    background: red;
+    color: white;
+    text-align: center;
+    width: 50px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.gigs > li .Month {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.gigs >li .Date .Day {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    padding: 6px 6px;
+}
+
+.gigs {
+    list-style: none;
+}
+.gigs > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.gigs > li .details {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+    .gigs > li .details .Artist {
+        font-weight: bold;
+        display: block;
+        
+    }
+
+    .gigs > li .details .Genre {
+        font-size: 13px;
+        top: 5px;
+    }
+
+
+    .gigs >li .actions {
+        font-size: 13px;
+        display: none;
+    }
+
+    .gigs >li:hover .actions {
+        display: block;
+    }
+
+    /*for notifications display*/
+    /*To remove bullet points*/
+ .popover-notifications ul.notifications {
+    list-style: none;
+    padding: 0;
+}
+
+/*to add line after each notiifcations*/
+.popover-notifications ul.notifications>li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+/*To remove border from last notifications*/
+.popover-notifications ul.notifications>li:last-child {
+    border-bottom: none;
+}
+
+.popover-notifications .popover-content {
+    padding: 0;
+}
+
+/*higlighting the bold text*/
+
+.popover-notifications ul.notifications .highlight {
+    font-weight: bold;
+}
+
+.popover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#searchgigs {
+    width: 300px;
+}
