@@ -6,8 +6,10 @@ using System.Linq;
 
 namespace GigHub.Models
 {
+	//CLASS
     public class Gig
-    {
+    {   
+	//Attributes
         public int Id { get; set; }
 
         public bool IsCanceled { get; set; }    
