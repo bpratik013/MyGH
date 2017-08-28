@@ -4,6 +4,8 @@ using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
+
+
 namespace GigHub.Models
 {
 	//CLASS
@@ -14,6 +16,7 @@ namespace GigHub.Models
 
         public bool IsCanceled { get; set; }    
 
+	//MYcomments
         public ApplicationUser Artist { get; set; }
 
         //Foreign key
